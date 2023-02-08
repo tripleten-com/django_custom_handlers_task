@@ -124,7 +124,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# Без этой настройки статика не подключится
+# Without this setting, the static data won't be displayed
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 CSRF_FAILURE_VIEW = 'core.views.csrf_failure'
